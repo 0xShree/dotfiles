@@ -249,7 +249,7 @@ ex ()
 #pamac
 alias pamac-unlock="sudo rm /var/tmp/pamac/dbs/db.lock"
 
-#xclip
+#xclip(need xclip installation)
 alias xclip="xclip -sel clip < "
 
 #dotfiles config
