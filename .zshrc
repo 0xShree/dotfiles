@@ -252,5 +252,6 @@ alias pamac-unlock="sudo rm /var/tmp/pamac/dbs/db.lock"
 #xclip
 alias xclip="xclip -sel clip < "
 
-#dotfile configuration
-alias dot="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
+#dotfiles config
+alias dot='/usr/bin/git --git-dir=/home/shree/dotfiles/ --work-tree=/home/shree'
+alias dot-push="dot push -u origin"
